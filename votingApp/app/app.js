@@ -1,0 +1,1 @@
+var votingApp = angular.module("votingApp", []);
