@@ -1,0 +1,29 @@
+#mainbody {
+    background-color: #92d050;
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+    text-align: center;
+    font-size: 4em;
+}
+
+.loginbuttons {
+    padding: 0px, 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.openText {
+    margin-top: 50px;
+}
+
+.loginbtn {
+    background-color: #ff531a;
+    border-color: 1px solid color= #ff4000;
+}
+
+form {
+    max-width: 30%;
+    margin: auto;
+}
