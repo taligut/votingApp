@@ -1,66 +1,37 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="votingApp">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-    <!--AngularJS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-    <!--Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--UI Bootstrap-->
-    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-       
-       
-        <link href="css/style.css" rel="stylesheet">
+<div class="container">
+    <h1>Welcome to iVote</h1>
+    <div class="openText">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+            from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+            Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+            the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in
+            45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+            Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section</p>
+    </div>
 
-    <!--my js files-->
-    <script src="app/app.js"></script>
+    <div id="buttons" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="loginbuttons">
+            <button type="button" class="btn btn-primary">Register</button><br><br>
 
-    </head>
-    
-    <!-- my content start here-->
-    <body id="mainbody">
-        
-        <div class="container">
-            <h1>Welcome to iVote</h1>
-            <div class="openText">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section</p>
-            </div>
-            
-            <div id="buttons" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="loginbuttons">
-                <button type="button" class="btn btn-primary">Register</button><br><br>
-                
-                <form action="" method="POST" role="form">
-                    <legend></legend>
-                
-                    <div class="form-group">
-                        <label for="login">Login</label>
-                        <input type="userName" class="form-control" id="userName" placeholder="user name" ng-model=""><br>
-                        <input type="password" class="form-control" id="password" placeholder="password" ng-model="">
-                    </div>
-                
-                    
-                
-                    <button type="submit" class="btn btn-primary">login</button>
-                </form>
-                
+            <form action="" method="POST" role="form">
+                <legend></legend>
+
+                <div class="form-group">
+                    <label for="login">Login</label>
+                    <input type="userName" class="form-control" id="userName" placeholder="user name" ng-model=""><br>
+                    <input type="password" class="form-control" id="password" placeholder="password" ng-model="">
                 </div>
-            </div>
-            
-            <p>{{5+5}}</p>
+
+
+
+                <button type="submit" class="btn btn-primary">login</button>
+            </form>
+
         </div>
-        
+    </div>
 
+    <a href="#!/voteList">vote List</a>
+    <a href="#!/specificVote">specific vote</a><br><br>
 
-    
-    </body>
-</html>
+</div>
