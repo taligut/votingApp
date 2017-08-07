@@ -27,3 +27,9 @@ form {
     max-width: 30%;
     margin: auto;
 }
+
+.openvotes {
+    border: 2px solid color=green;
+    width: 200px;
+    height: 150px;
+}

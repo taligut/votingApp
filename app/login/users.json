@@ -1,14 +1,17 @@
 [
   {
     "userName":"talg",
-    "password":"T123456"
+    "password":"T123456",
+    "voted": ["Membership Voting","Economic Committee","Household coordinator"]
   },
   {
     "userName":"limorg",
-    "password":"L78910"
+    "password":"L78910",
+    "voted":["Economic Manager","Community Committee","Factory CEO"]
   },
   {
     "userName":"nogag",
-    "password":"N111213"
+    "password":"N111213",
+    "voted":["Community Committee","Economic Committee","Household coordinator"]
   }
 ]

@@ -1,19 +1,24 @@
 var votingApp = angular.module("votingApp", ["ngRoute"]);
 
 // router
-votingApp.config(function ($routeProvider) {
-  $routeProvider
-  .when("/", {
-    templateUrl: "/landingPage.html",
+
+votingApp.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+    templateUrl: "app/landingPage/landingPage.html",
     controller: "landingPageCtrl"
-  }) 
-  .when("/voteList", {
+    })
+    .when("/voteList", {
     templateUrl: "app/voteList/voteList.html",
     controller: "voteListCtrl"
-  })
-  .when("/specificVote", {
+    })
+    .when("/specificVote", {
     templateUrl: "app/specificVote/specificVote.html",
     controller: "specificVoteCtrl"
-  }) 
+    })
+.otherwise("/", {
+    templateUrl: "landingPage/landingPage.html",
+    controller: "landingPageCtrl"
+    });
 });
 

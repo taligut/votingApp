@@ -1,0 +1,14 @@
+[
+  {
+    "voteTitle":"Membership Voting",
+    "candidate": ["Menachem Golan","Yoel Solomon","Marry Poppins","Jenifer Goldberg","George Washington","Sami Ofer","Eli Dgibri","Menachem Golan","david Gilmour","Jefry Jifa"]
+  },
+  {
+    "voteTitle":"Economic Committee",
+    "candidate": ["Nadav Shaked","Rona Shmueli","Eli Barak","Ronit Marrer","Shlomit Navaro"]
+  },
+  {
+    "voteTitle":"Household coordinator",
+    "candidate": ["Sonia Peres","David Koren","Avraham Stam"]
+  }
+]

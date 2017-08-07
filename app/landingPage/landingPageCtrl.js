@@ -1,4 +1,5 @@
-var app = angular.module('votingApp', []);
-app.controller('landingPageCtrl', function($scope) {
 
+votingApp.controller('landingPageCtrl', function($scope) {
+    $scope.message = "test test test test test";
 });
+

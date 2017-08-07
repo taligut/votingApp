@@ -1,14 +1,38 @@
 [
   {
-    "voteTitle":"Membership Voting",
-    "candidate": ["Menachem Golan","Yoel Solomon","Marry Poppins","Jenifer Goldberg","George Washington","Sami Ofer","Eli Dgibri","Menachem Golan","david Gilmour","Jefry Jifa"]
+    "status":"active",
+    "voteTitle":"Membership Voting"
   },
   {
-    "voteTitle":"Economic Committee",
-    "candidate": ["Nadav Shaked","Rona Shmueli","Eli Barak","Ronit Marrer","Shlomit Navaro"]
+    "status":"active",
+    "voteTitle":"Economic Committee"
   },
   {
-    "voteTitle":"Household coordinator",
-    "candidate": ["Sonia Peres","David Koren","Avraham Stam"]
+    "status":"active",
+    "voteTitle":"Household coordinator"
+  },
+    {
+    "status":"active",
+    "voteTitle":"Economic Manager"
+  },
+  {
+    "status":"active",
+    "voteTitle":"Community Committee"
+  },
+  {
+    "status":"active",
+    "voteTitle":"Factory CEO"
+  },
+    {
+    "status":"notActive",
+    "voteTitle":"social guide"
+  },
+  {
+    "status":"notActive",
+    "voteTitle":"Chairman of a party"
+  },
+  {
+    "status":"notActive",
+    "voteTitle":"Secretary of an association"
   }
 ]

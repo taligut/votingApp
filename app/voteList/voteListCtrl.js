@@ -1,4 +1,3 @@
-var app = angular.module('votingApp', []);
-app.controller('votingApp', function($scope) {
-
+votingApp.controller('votingApp', function($scope) {
+    $
 });
